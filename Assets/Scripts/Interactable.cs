@@ -1,6 +1,11 @@
 using UnityEngine;
+using UnityEngine.Events;
 
-public abstract class Interactable : MonoBehaviour
+public class Interactable : MonoBehaviour
 {
-    public abstract void Interact();
+    [SerializeField] UnityEvent triggerInteraction;
+    public void Interact()
+    {
+        triggerInteraction?.Invoke();
+    }
 }

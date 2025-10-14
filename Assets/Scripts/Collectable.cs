@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class Collectable : Interactable
+public class Collectable : MonoBehaviour
 {
-    public override void Interact()
+    public void Collect()
     {
         Destroy(gameObject);
     }
