@@ -42,8 +42,14 @@ public class PlayerInteractor : MonoBehaviour
     {
         if (!other.CompareTag("Interactable")) return;
 
-        if (other.GetComponent<Interactable>() != _currentInteractable) return;
-
-        _currentInteractable = null;
+        if (other.GetComponent<Interactable>() != _currentInteractable)
+        {
+            return;
+        }
+        else
+        {
+            _currentInteractable.Interrupt();
+            _currentInteractable = null;
+        }
     }
 }
