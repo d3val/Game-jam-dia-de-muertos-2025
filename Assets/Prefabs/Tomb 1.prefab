@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3596942556031121872}
   - component: {fileID: 5562414144302788265}
   m_Layer: 0
-  m_Name: Tomb
+  m_Name: Tomb 1
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
