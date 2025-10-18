@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2dc3298129a087b418a33976c902c410
+guid: ea1c3c4d03f10684d98f569d55dffd0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gatito_standing1_0
+      name: gatito5_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 29
-        width: 333
-        height: 214
+        x: 165
+        y: 62
+        width: 664
+        height: 389
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,8 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f3f5112907b9a74794a35e690fb528c
-      internalID: -1391179709
+      spriteID: 1fee0b4c28980cb4d881c5e84d0fbe57
+      internalID: 216864754
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 16a71506947548d4d83ac2b729aaff55
+    spriteID: 029dc27e7e7fec74c8c4deb1bfab5484
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      gatito_standing1_0: -1391179709
+      gatito5_0: 216864754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
