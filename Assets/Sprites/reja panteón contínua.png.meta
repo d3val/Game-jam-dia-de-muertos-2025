@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47e4b5b3be548494b9a1da536696de8d
+guid: 7d5f3ededd15fdb4c964e48ee35d3c74
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rejas cementerio_0
+      name: "reja pante\xF3n cont\xEDnua_0"
       rect:
         serializedVersion: 2
-        x: 74
-        y: 3
-        width: 1779
-        height: 1039
+        x: 82
+        y: 48
+        width: 1150
+        height: 329
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,8 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad567bcd97d3edf48831568e1f53f6fb
-      internalID: 277033546
+      spriteID: b12010ed6e0b81545889033d0a7fd483
+      internalID: 804770240
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6556f8bb6b79e454499326d1c6853091
+    spriteID: 4c7a4c59887bd744790e99e6eb953935
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      rejas cementerio_0: 277033546
+      "reja pante\xF3n cont\xEDnua_0": 804770240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
