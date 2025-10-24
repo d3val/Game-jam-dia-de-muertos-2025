@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 464796940376061462, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1081572132, guid: 33ea678b88aab2545a118323d92c971f, type: 3}
     - target: {fileID: 886533159883651755, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_Name
       value: Tomb 7 Variant
@@ -18,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: -1736164526, guid: 33ea678b88aab2545a118323d92c971f, type: 3}
     - target: {fileID: 7780777581078072160, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1370873
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7780777581078072160, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.887
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7780777581078072160, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.609196
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7780777581078072160, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_LocalRotation.w
