@@ -20,6 +20,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tomb 5 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3317987101566195992, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430309596418012278, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.425
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430309596418012278, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430309596418012278, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.043
+      objectReference: {fileID: 0}
     - target: {fileID: 3792009930191349162, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -64,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8093524832971035987, guid: fd5713b918542e3408aac9d65f14f9db, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1741800666, guid: a08ffc2d27783ce44bcaa250a7331142, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
