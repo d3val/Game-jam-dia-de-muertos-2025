@@ -10002,6 +10002,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7899348254278013767, guid: 09b3dee2eeea29a40b7ce40fe33564b8, type: 3}
   m_PrefabInstance: {fileID: 5359562382158237223}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1152406005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152406006}
+  - component: {fileID: 1152406008}
+  - component: {fileID: 1152406007}
+  m_Layer: 0
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1152406006
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152406005}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1358997230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.67, y: 0.03}
+  m_SizeDelta: {x: 0.8, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1152406007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152406005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: E
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 14deb7fa364796f4e86fadbd928624e9, type: 2}
+  m_sharedMaterial: {fileID: -8084955588273177062, guid: 14deb7fa364796f4e86fadbd928624e9, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4290032820
+  m_fontColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0.5
+  m_fontSizeMax: 5
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1152406008
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152406005}
+  m_CullTransparentMesh: 1
 --- !u!1 &1157676499
 GameObject:
   m_ObjectHideFlags: 0
@@ -11162,6 +11298,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 321002265886587523, guid: 4dafdbfa61695714989c50dc47c027a4, type: 3}
   m_PrefabInstance: {fileID: 5747735999493919323}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1274397951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274397952}
+  - component: {fileID: 1274397954}
+  - component: {fileID: 1274397953}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1274397952
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274397951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1358997230}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.5719, y: 0}
+  m_SizeDelta: {x: 3.1439, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1274397953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274397951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Poner altar
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 14deb7fa364796f4e86fadbd928624e9, type: 2}
+  m_sharedMaterial: {fileID: -8084955588273177062, guid: 14deb7fa364796f4e86fadbd928624e9, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4290032820
+  m_fontColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 0.75
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0.5
+  m_fontSizeMax: 5
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1274397954
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274397951}
+  m_CullTransparentMesh: 1
 --- !u!1 &1274836781
 GameObject:
   m_ObjectHideFlags: 0
@@ -11987,6 +12259,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6391409696169897225, guid: 55e239c77a604984f8bbe30fd5cdeb95, type: 3}
   m_PrefabInstance: {fileID: 976098498}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1358997229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358997230}
+  - component: {fileID: 1358997231}
+  m_Layer: 0
+  m_Name: Interaction indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1358997230
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358997229}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.03}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1274397952}
+  - {fileID: 1152406006}
+  m_Father: {fileID: 1545977448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 3.38}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &1358997231
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358997229}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 268125308}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!4 &1362977471 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6391409696169897225, guid: 55e239c77a604984f8bbe30fd5cdeb95, type: 3}
@@ -13115,9 +13448,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1545977448}
+  - component: {fileID: 1545977450}
+  - component: {fileID: 1545977449}
+  - component: {fileID: 1545977451}
   m_Layer: 0
   m_Name: Main tomb
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13139,8 +13475,183 @@ Transform:
   - {fileID: 443413255}
   - {fileID: 532375104}
   - {fileID: 18834387}
+  - {fileID: 1358997230}
   m_Father: {fileID: 244264339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1545977449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545977447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d53185b75febc74fbf5dbb231008b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueList
+  dialogues:
+  - speakerName: Lupo
+    dialogueContent: "\u2026\r\n\u2026\r\n\u2026"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "No pasa nada\u2026"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: '!!!!!!'
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "\xA1Lupo! Peque\xF1o gato travieso. \xBFQu\xE9 haces en un
+      lugar como este tan tarde?"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "\xBFTe he estado buscando desde hace d\xEDas?\r\n\xBFSolo vi
+      que te dormiste de repente y luego unas personas vinieron y te llevaron en
+      una camioneta blanca?"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "Pero eso ya no importa, ahora que estas aqu\xED regresaremos
+      juntos \xBFverdad?"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "\xA1Hay Lupo! Pero yo ya no voy a regresar.\r\nMi lugar ya
+      no est\xE1 entre los vivos, ahora pertenezco al mundo de los muertos."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "Pero no te preocupes por mi, la verdad es que estoy perfectamente. 
+      \xA1Todos mis dolores han desaparecido, me siento como nunca!"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "Se que es triste, pero es algo que eventualmente ten\xEDa que
+      pasar."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "\xBFQuisiera poder ayudarte de alguna manera?"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "\xBFQu\xE9 no lo ves? Ya me has ayudado mucho Lupo.\r\nMe acompa\xF1aste
+      hasta el final, siempre que estaba deca\xEDdo me reconfortabas.\r\nIncluso
+      despu\xE9s de que me fui seguiste preocup\xE1ndote por m\xED."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "\xA1Y mira hasta donde has llegado por buscar a este pobre
+      anciano!\r\nHas hecho este altar solo para m\xED."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "Es que quer\xEDa verte de nuevo. Aunque fuera solo una \xFAltima
+      vez."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "\xBFSabes, Lupo? No tiene por qu\xE9 ser la \xFAltima vez.\r\nCada
+      a\xF1o podemos vernos como justo ahora. \r\nBasta con que me recuerdes y me
+      lleves en tu coraz\xF3n."
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Lupo
+    dialogueContent: "\xA1Ya veo! \xA1Entonces regresare todos los a\xF1os!"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerName: Don Pepe
+    dialogueContent: "Me alegra o\xEDrte decir eso.\r\n\xBFEntonces, de que te gustar\xEDa
+      hablar?\r\nLa noche a\xFAn es joven. JO JO JO JO"
+    OnDialogueStart:
+      m_PersistentCalls:
+        m_Calls: []
+  OnDialoguesEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!135 &1545977450
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545977447}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1545977451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545977447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b5774cc4210502498b0a94ca2a74daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable
+  triggerInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1545977449}
+        m_TargetAssemblyTypeName: DialogueList, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8658955614489003126}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onInterruptInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+  uiIndicator: {fileID: 1358997229}
 --- !u!4 &1553561368 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6906781363925426838, guid: 82f7803992957be429d24ffd540cea54, type: 3}
@@ -18854,6 +19365,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
+--- !u!114 &8658955614489003126 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4670056150219924452, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
+  m_PrefabInstance: {fileID: 8658955614489003125}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0373d8d1a016cf4795886ba44b761d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
 --- !u!4 &8765183318603664990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1994272472203024061, guid: 844c1c3b4efb02f44a12372053e837bf, type: 3}
