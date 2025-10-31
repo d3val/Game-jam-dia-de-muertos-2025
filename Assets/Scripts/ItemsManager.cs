@@ -48,6 +48,14 @@ public class ItemsManager : MonoBehaviour
         if (candlesCount >= 3) return;
         candlesCount++;
         candlesText.SetText(candlesCount + "/3");
-        if(candlesCount==3) candlesText.color = Color.green;
+        if (candlesCount == 3) candlesText.color = Color.green;
+    }
+
+    public void AddFlower()
+    {
+        if (flowersCount >= 5) return;
+        flowersCount++;
+        flowersText.SetText(flowersCount + "/5");
+        if (flowersCount == 5) flowersText.color = Color.green;
     }
 }
