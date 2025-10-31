@@ -47,9 +47,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
+        if(playerInput == Vector2.zero)
+        {
+            rb.linearVelocity = Vector3.zero;
+        }
+
         Vector3 playerDirection = new Vector3(playerInput.x, 0, playerInput.y);
         rb.AddForce(playerDirection * speed, ForceMode.Force);
         animator.SetFloat("speed", rb.linearVelocity.magnitude);
+
+        if (playerInput == Vector2.zero)
+        {
+            rb.linearVelocity = Vector3.zero;
+        }
     }
 
     private void UpdateRenderer()
