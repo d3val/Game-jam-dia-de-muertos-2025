@@ -21260,6 +21260,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
+    - target: {fileID: 696079404202498517, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 2233322375862060367, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
       propertyPath: m_LocalPosition.y
       value: 6
@@ -21286,7 +21290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4670056150219924452, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
       propertyPath: speed
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6969368774371644919, guid: c858525ffe2cc1a4fb0a7f7827b70198, type: 3}
       propertyPath: m_LocalPosition.x
