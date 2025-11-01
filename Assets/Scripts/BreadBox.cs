@@ -12,7 +12,6 @@ public class BreadBox : MonoBehaviour
             ItemsManager.Instance.AddBread();
             GetComponent<Collider>().enabled = false;
             GetComponent<SpriteRenderer>().sprite = openSprite;
-            Debug.Log("XD");
             return;
         }
 

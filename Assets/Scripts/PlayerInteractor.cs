@@ -25,8 +25,6 @@ public class PlayerInteractor : MonoBehaviour
     private void TriggerInteraction(InputAction.CallbackContext ctx)
     {
         if (_currentInteractable == null) return;
-
-        Debug.Log("Accion");
         _currentInteractable.Interact();
     }
 

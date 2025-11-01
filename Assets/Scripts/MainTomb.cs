@@ -2,15 +2,38 @@ using UnityEngine;
 
 public class MainTomb : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private GameObject placedItems;
+    [SerializeField] private Animator spiritAnimator, finalPanelAnimator;
+    [SerializeField] private DialogueList defaultDialogues, finalDialogues;
+    private bool finalEventInitiated;
+
+    public void PlaceItems()
     {
-        
+        if (finalEventInitiated)
+        {
+            finalDialogues.NextDialogue();
+            return;
+        }
+        if (!ItemsManager.Instance.CheckItems())
+        {
+            defaultDialogues.NextDialogue();
+            return;
+        }
+        else
+        {
+            InitFinalEvent();
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void InitFinalEvent()
     {
-        
+        finalEventInitiated = true;
+        placedItems.SetActive(true);
+        GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().DisableMove();
+        finalDialogues.NextDialogue();
     }
+    public void SpawnSpirit() => spiritAnimator.SetTrigger("appear");
+
+    public void EndGame() => finalPanelAnimator.SetTrigger("EndGame");
 }

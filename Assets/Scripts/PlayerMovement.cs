@@ -53,8 +53,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Vector3 playerDirection = new Vector3(playerInput.x, 0, playerInput.y);
-        rb.AddForce(playerDirection * speed, ForceMode.Force);
-        animator.SetFloat("speed", rb.linearVelocity.magnitude);
+        rb.AddForce(playerDirection.normalized * speed, ForceMode.Acceleration);
 
         if (playerInput == Vector2.zero)
         {
@@ -75,10 +74,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.localScale = new Vector3(currentXScale, transform.localScale.y, transform.localScale.z);
+        animator.SetFloat("speed", rb.linearVelocity.magnitude);
     }
 
     private void ReadMove(InputAction.CallbackContext ctx)
     {
         playerInput = ctx.ReadValue<Vector2>();
+    }
+
+    public void DisableMove()
+    {
+        rb.angularVelocity = Vector3.zero;
+        UpdateRenderer();
+        this.enabled = false;
     }
 }

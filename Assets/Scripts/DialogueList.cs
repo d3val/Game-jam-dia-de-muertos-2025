@@ -8,11 +8,6 @@ public class DialogueList : MonoBehaviour
     [SerializeField] private UnityEvent OnDialoguesEnd;
     private int currentDialogue = 0;
 
-    private void Start()
-    {
-        Debug.Log("Total de dialogos: " + dialogues.Count);
-    }
-
     public void NextDialogue()
     {
         if (currentDialogue >= dialogues.Count)
