@@ -96,9 +96,9 @@ public class ItemsManager : MonoBehaviour
 
     public void AddCrown()
     {
-        if(flowerCrownCount>=1) return;
+        if (flowerCrownCount >= 1) return;
         flowerCrownCount++;
-        flowerCrownText.SetText(flowerCrownCount+"/1");
+        flowerCrownText.SetText(flowerCrownCount + "/1");
         if (flowerCrownCount == 1)
         {
             itemsCollected++;
@@ -111,4 +111,6 @@ public class ItemsManager : MonoBehaviour
         keyIcon.color = Color.white;
         holdingKey = true;
     }
+
+    public bool CheckItems() => itemsCollected == 4 ? true : false;
 }
