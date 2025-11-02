@@ -31,6 +31,7 @@ public class MainTomb : MonoBehaviour
         finalEventInitiated = true;
         placedItems.SetActive(true);
         GameObject.FindWithTag("Player").GetComponent<PlayerMovement>().DisableMove();
+        GameObject.FindFirstObjectByType<GameManager>().StopTimer();
         finalDialogues.NextDialogue();
     }
     public void SpawnSpirit() => spiritAnimator.SetTrigger("appear");
