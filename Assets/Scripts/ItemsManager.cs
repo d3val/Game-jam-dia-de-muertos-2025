@@ -49,13 +49,13 @@ public class ItemsManager : MonoBehaviour
         }
     }
 
-    public void EnableItemsUI()
+    public void EnableItemsUI(bool state)
     {
-        flowersUI.SetActive(true);
-        flowerCrownUI.SetActive(true);
-        candlesUI.SetActive(true);
-        breadUI.SetActive(true);
-        keyUI.SetActive(true);
+        flowersUI.SetActive(state);
+        flowerCrownUI.SetActive(state);
+        candlesUI.SetActive(state);
+        breadUI.SetActive(state);
+        keyUI.SetActive(state);
     }
 
     public void AddCandle()
