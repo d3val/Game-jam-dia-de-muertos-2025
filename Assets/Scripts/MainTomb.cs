@@ -34,7 +34,6 @@ public class MainTomb : MonoBehaviour
         GameObject.FindFirstObjectByType<GameManager>().StopTimer();
         finalDialogues.NextDialogue();
     }
-    public void SpawnSpirit() => spiritAnimator.SetTrigger("appear");
 
     public void EndGame() => finalPanelAnimator.SetTrigger("EndGame");
 }
