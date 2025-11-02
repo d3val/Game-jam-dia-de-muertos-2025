@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
@@ -13,10 +14,16 @@ public class GameManager : MonoBehaviour
     private TextMeshProUGUI timerText;
     [SerializeField] UnityEvent onTimerEnd;
     [SerializeField] PlayableDirector gameOverTimeline;
+    [SerializeField] AudioSource soundtrackSource;
+    private AudioClip defaultClip;
+    [SerializeField] AudioClip tenseMusic;
+    private bool clipSwaped = false;
+    [SerializeField, Range(0f, 1f)] float tensePercentage = 0.25f;
     private Coroutine timerCourotine;
 
     private void Start()
     {
+        defaultClip = soundtrackSource.clip;
         currentTime = initialTime;
         timerText = timeUI.GetComponentInChildren<TextMeshProUGUI>();
         UpdateUI();
@@ -42,6 +49,14 @@ public class GameManager : MonoBehaviour
             currentTime -= Time.deltaTime;
             UpdateUI();
             yield return null;
+            if (currentTime <= initialTime * tensePercentage && !clipSwaped)
+            {
+                soundtrackSource.Stop();
+                soundtrackSource.clip = tenseMusic;
+                soundtrackSource.Play();
+                clipSwaped = true;
+                GameObject.FindAnyObjectByType<PlayerMovement>().speed *= 1.1f;
+            }
         }
         currentTime = 0;
         UpdateUI();
@@ -55,6 +70,7 @@ public class GameManager : MonoBehaviour
         {
             StopCoroutine(timerCourotine);
             timerCourotine = null;
+            soundtrackSource.clip = defaultClip;
         }
     }
 
@@ -64,7 +80,7 @@ public class GameManager : MonoBehaviour
         GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteractor>().enabled = false;
         GameObject.FindAnyObjectByType<ItemsManager>().EnableItemsUI(false);
         timeUI.SetActive(false);
-        GameObject.FindAnyObjectByType<AudioSource>().Pause();
+        soundtrackSource.Pause();
         DialogueUI.Instance.HideDialogueBox();
         gameOverTimeline.Play();
     }
