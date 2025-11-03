@@ -9,6 +9,8 @@ public class Interactable : MonoBehaviour
     [SerializeField] GameObject uiIndicator;
     public void Interact()
     {
+        if (!gameObject.activeSelf) return;
+
         EnableUIIndicator(false);
         triggerInteraction?.Invoke();
     }
